@@ -15,6 +15,19 @@ int main(void)
 	int debug_count = 0;
 	int gameStep = 4;
 
+	char dino[SCREENHEIGHT][SCREENWIDTH + 5] =
+	{
+		"      ___",
+		"     |  *|__",
+		"     |    __|",
+		"     |   |_",
+		"\\____|   |",
+		" \\______/",
+		"   |  |",
+	};
+
+	
+
 	char screenPoint[SCREENHEIGHT][SCREENWIDTH + 5] =
 	{
 		{"123456789                                                                                               \n"},
@@ -29,6 +42,7 @@ int main(void)
 		{"0                                                                                                       \0"}
 	};
 
+
 	initConsole();
 	
 	//printf("%d  %d  %d  %d  %s\n\n", &screenPoint[0][0], &screenPoint[0][1], sizeof(screenPoint[0][0]), &screenPoint[0][0] + 1, *(&screenPoint[0] + sizeof(screenPoint[0][0])));
@@ -40,10 +54,9 @@ int main(void)
 	while (1)
 	{
 		gameStep++;
-
+		
 		screenScroll(screenPoint, gameStep);
 		screenPrint(screenPoint);
-
 		debug_count++;
 		//printf("%d", debug_count);
 
@@ -51,7 +64,7 @@ int main(void)
 		delay(100);
 	}
 
-
+	
 	system("PAUSE");
 	return 0;
 }

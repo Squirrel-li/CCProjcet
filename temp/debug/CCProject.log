@@ -1,6 +1,9 @@
 ﻿  Main.c
-d:\!universitiy\1st\understand the basic structure of programming languages\project\ccprojcet\source\main.c(13): warning C4101: 'tempData': 未參考的區域變數
-d:\!universitiy\1st\understand the basic structure of programming languages\project\ccprojcet\source\main.c(12): warning C4101: 'k': 未參考的區域變數
-d:\!universitiy\1st\understand the basic structure of programming languages\project\ccprojcet\source\main.c(12): warning C4101: 'j': 未參考的區域變數
-d:\!universitiy\1st\understand the basic structure of programming languages\project\ccprojcet\source\main.c(12): warning C4101: 'i': 未參考的區域變數
-  CCProject.vcxproj -> D:\!universitiy\1st\Understand the basic structure of programming languages\project\CCProjcet\CCProject\CCProject\..\..\temp\debug\CCProject.exe
+c:\users\xxuann\desktop\ccprojcet\source\main.c(13): warning C4101: 'tempData': 未參考的區域變數
+c:\users\xxuann\desktop\ccprojcet\source\main.c(12): warning C4101: 'k': 未參考的區域變數
+c:\users\xxuann\desktop\ccprojcet\source\main.c(12): warning C4101: 'j': 未參考的區域變數
+c:\users\xxuann\desktop\ccprojcet\source\main.c(12): warning C4101: 'i': 未參考的區域變數
+  dinoAni.c
+c:\users\xxuann\desktop\ccprojcet\source\dinoani.c(45): warning C4098: 'dinoAni': 'void' 函式正在傳回值
+  正在產生程式碼...
+  CCProject.vcxproj -> C:\Users\xxuann\Desktop\CCProjcet\CCProject\CCProject\..\..\temp\debug\CCProject.exe
